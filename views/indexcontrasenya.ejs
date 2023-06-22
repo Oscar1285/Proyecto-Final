@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperar contraseña</title>
+    <!-- css -->
+    <link rel="stylesheet" href="/css/index.css">
+    <!-- bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <nav>
+        <div>
+            <a href=""><img src="/img/schodinguer.png" alt=""></a>
+        </div>
+        <div>
+            <a href="">Nosotros</a>
+            <a href="">Proyectos</a>
+            <a href="">Contacto</a>
+        </div>
+    </nav>
+
+    <div class="container-fluid contenedor">
+        <section id="sec" class="row mt-6">
+            <div class="col-lg-4">
+                <article class="p-3">
+                    <div class="Logo">
+                        <h1>
+                            <a href="">Mi Proyecto</a>
+                        </h1>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-lg-4">
+                <article class="p-3">
+                    <div class="LoginInitial">
+                        <form class="row g-3 needs-validation" id="Logger" novalidate>
+                            <div class="col-md-12">
+                                <!-- <button type="button" class="btn col-md-12">Introduce tus datos y recupera tu contraseña</button> -->
+                            </div>
+                            <div class="col-md-12">
+                                <input type="email" class="form-control" placeholder="Introduce tu Email o Usuario" id="email"
+                                    autocomplete="current-email" required>
+                                <div class="invalid-feedback">Rellena el campo Email</div>
+                            </div>
+                            <div class="col-md-12">
+                                <input style="margin-bottom: -20px;" type="text" class="form-control" placeholder="Nombre de Usuario" id="nickname"
+                                    autocomplete="current-nick" required>
+                                <div class="invalid-feedback">Rellena el campo nickname</div>
+                            </div>
+                            <div class="col-md-12">
+                                <button type="submit" id="boton" class="btn btn-primary col-md-12">Recupera tus
+                                    credenciales</button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Aviso</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Todos los campos deben ser completados
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger col-md-12"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="iniciate" class="z"><a href="#">Olvidaste email o nombre de usuario?</a>
+                                </div>
+
+                            </div>
+                            <div class="col-md-12">
+                                <button id="u" class="btn btn-success form-control type=" submit><a href="/">Si
+                                        tienes cuenta inicia session aqui</a></button>
+                            </div>
+
+                        </form>
+
+
+
+
+                    </div>
+                </article>
+
+
+
+            </div>
+
+        
+
+        </section>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,193 @@
+/* 
+.selector-for-some-widget {
+  box-sizing: content-box;
+} */
+
+nav{
+  display: flex;
+  align-items: center;    
+  justify-content:space-between; 
+  color: blue;
+}
+
+nav{
+  height: 100px;
+
+}
+img{
+  height: 120px;
+  margin-left: 80px;
+}
+section{
+  display: flex;
+  align-items: center;    
+  justify-content:center;   
+  height: 500px;
+  margin-left: 15px !important ; 
+  
+}
+
+
+.col-lg-4{
+display: flex;
+  align-items: center;    
+  justify-content:center;
+  
+ 
+  }
+
+  #Logger{
+    border-radius: 5px;
+    box-shadow: 5px 5px 0 rgb(222, 215, 215);
+    height: 400px;
+    width: 450px;
+    padding: 10px;
+  
+  }
+
+article{
+  background-color:#fff;
+  display: flex;
+  align-items: center;    
+  justify-content:center;    
+  width: 450px; 
+   
+
+}
+
+
+
+/* #boton{
+width: 380px;
+} */
+
+button {  
+ 
+width: 380px;
+  align-items: center;
+  color: white;
+  border-radius: 20px;
+  
+}
+
+input{
+width: 380px;
+align-items: center;
+color: white;
+border-radius: 20px;
+
+
+}
+
+label{
+width: 80px;
+align-items: center;
+color: white;
+border-radius: 20px;
+
+}
+
+
+article{
+  background-color:#f0f2f5 !important;
+  
+  
+}
+
+body  {
+  background-color:#f0f2f5!important;
+ 
+}
+form  {
+  background-color:#ffffff;
+}
+
+.registrate{
+color: white;
+}
+
+h1{
+  font-style: normal;
+ color: blue;
+  font-size: large;
+  
+}
+
+
+
+
+div a{
+color: blue !important;
+  text-decoration: none !important;   
+}
+
+a:hover {
+  cursor: hand !important;
+  text-decoration: underline !important;
+  } 
+
+  .x, .y, .z{
+    
+    margin-top: 10px;
+    display: flex;
+    align-items: center;    
+    justify-content:center;
+
+  }
+  
+
+  h1 a{
+    color: blue; 
+      
+  }
+  h1 a:hover {
+    cursor: hand !important;      
+    }
+
+.col-md-12{
+  margin-top:  20px;
+  
+ 
+}
+
+
+nav a {
+color: blue !important;
+}
+
+nav div{
+padding: 80px;
+}
+
+nav div a{
+margin: 15px;
+}
+
+
+#u , #v , #w {
+    margin-bottom: 20px;
+  background-color: #42b72a;
+  }
+
+  #u a, #v a,#w a{
+    color: white !important;
+    text-decoration: none;
+  }
+
+
+button, input, label {
+  height: 50px;  
+  
+}
+
+
+  /* FOOTER ABAJO */
+  /* html, body, .contenedor {
+    height: 100%;
+  }
+
+
+
+  main {
+    flex-grow: 1;
+  } */
